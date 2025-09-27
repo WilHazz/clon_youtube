@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Providers>
+        <Providers> // para manejar el tema Oscuro
           {children}
         </Providers> 
       </body>
