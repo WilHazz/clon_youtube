@@ -1,18 +1,21 @@
 // importamos desde React-Iconos
-import { FaBars, FaSearch, FaBell, FaUserCircle } from "react-icons/fa";
 import { MdVideoLibrary, MdHome, MdSubscriptions } from "react-icons/md";
 import { AiFillLike, AiFillDislike } from "react-icons/ai";
-
+import { HiOutlineMenu } from "react-icons/hi";
+import { FiSearch, FiMoreVertical } from "react-icons/fi";
+import { BiMicrophone } from "react-icons/bi"; 
+import { FaYoutube } from "react-icons/fa6";
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
-    menu: FaBars,
-    search: FaSearch,
-    bell: FaBell,
-    user: FaUserCircle,
-    home: MdHome,
-    library: MdVideoLibrary,
-    subscriptions: MdSubscriptions,
-    like: AiFillLike,
-    dislike: AiFillDislike,
+    Menu: HiOutlineMenu,
+    Search: FiSearch,
+    More: FiMoreVertical,
+    Mic: BiMicrophone,
+    Home: MdHome,
+    Youtube: FaYoutube,
+    Library: MdVideoLibrary,
+    Subscriptions: MdSubscriptions,
+    Like: AiFillLike,
+    Dislike: AiFillDislike,
 }
