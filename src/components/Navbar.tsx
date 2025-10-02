@@ -46,6 +46,16 @@ export default function Navbar() {
            >
             <Icons.More className="w-5 h-5" />
            </button>
+           {openConfig && (
+            <div className="absolute right-0 mt-2 w-56 bg-background shadow-lg rounded-lg overflow-hidden">
+              <button onClick={() => setTheme("l")} className="">
+                Tus datos en Youtube
+              </button>
+              <button onClick={() => setTheme("l")} className="">
+                Aspecto
+              </button>
+            </div>
+           )}
         </div>
       </div>
     </nav>
