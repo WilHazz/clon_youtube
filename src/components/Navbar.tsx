@@ -18,7 +18,7 @@ export default function Navbar() {
         </button>
         <Link href="/" className="flex items-center gap-1">
           <Icons.Youtube className="w-8 h-8 text-red-500" />
-          <span className="text-xl font-bold">YouTube</span>
+          <span className="text-lg font-[var(----font-oswald)]">YouTube</span>
         </Link>
       </div>
 
@@ -57,6 +57,10 @@ export default function Navbar() {
             </div>
            )}
         </div>
+        <button className=" flex p-2 bg-gray-200 hover:bg-zinc-800 dark:bg-neutral-950 rounded-full cursor-pointer">
+          <Icons.User className="w-6 h-6" />Acceder
+        </button>
+
       </div>
     </nav>
   );
