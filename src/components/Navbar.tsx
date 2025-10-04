@@ -45,7 +45,7 @@ export default function Navbar() {
       </div>
 
       {/* Derecha */}
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-3">
         <div className="relative">
            <button onClick={()=> setOpenConfig(!openConfig)} 
            className="p-2  rounded-full cursor-pointer"
@@ -63,7 +63,7 @@ export default function Navbar() {
             </div>
            )}
         </div>
-        <button className=" flex p-2 bg-gray-200 hover:bg-zinc-800 dark:bg-neutral-950 rounded-full cursor-pointer">
+        <button className="flex items-center gap-1 px-3 py-[6px] border border-[#3f3f3f] rounded-full text-sm hover:bg-[#272727] hover:border-transparent transition cursor-pointer">
           <Icons.User className="w-6 h-6" />Acceder
         </button>
 
