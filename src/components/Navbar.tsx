@@ -7,6 +7,7 @@ import { Icons } from "@/styles/variables";
 
 export default function Navbar() {
   const [openConfig, setOpenConfig] = useState(false);
+  const [search, setSearch] = useState("");
   const { theme, setTheme } = useTheme();
 
   return (
@@ -18,26 +19,31 @@ export default function Navbar() {
         </button>
         <Link href="/" className="flex items-center gap-1">
           <Icons.Youtube className="w-8 h-8 text-red-500" />
-          <span className="text-lg font-[var(----font-oswald)]">YouTube</span>
+          <span className="text-xl tracking-tight font-oswald"
+            style={{ fontFamily: "var(--font-oswald)" }}>YouTube</span>
+          
+          <span className="text-[10px] text-gray-400 relative -top-2">CO</span>  
         </Link>
       </div>
 
       {/* Centro  */}
-      <div className="flex items-center gap-2 w-1/2 max-w-lg">
-        <div className="flex flex-1 items-center boder rounded-full overflow-hidden px-4 py-1 border-gray-200 dark:border-zinc-800">
+      <div className="flex items-center flex-1 justify-center">
+        <div className="flex items-center w-full max-w-xl">
           <input 
             type="text" 
-            placeholder="Buscar" 
-            className="flex-1 px-4 py-2 outline-none bg-transparent"
+            placeholder="Buscar"
+            onChange={(e) =>setSearch(e.target.value)}
+            className="w-full px-4 py-2 bg-[#121212] border border-[#303030] rounded-l-full outline-none focus:border-blue-500 placeholder-gray-400"
            />
-           <button className="px-4 py-2 bg-gray-100 dark:bg-zinc-800 cursor-pointer">
+           <button className="px-5 py-2 bg-[#222222] border border-[#303030] border-l-0 rounded-r-full hover:bg-[#303030] cursor-pointer">
            <Icons.Search className="w-6 h-6 text-gray-300" />
            </button>
         </div>
-        <button className="p-2 bg-gray-200 hover:bg-neutral-700 dark:bg-zinc-800 rounded-full cursor-pointer">
+        <button className="ml-3 p-2 bg-gray-200 hover:bg-[#303030] dark:bg-zinc-800 rounded-full cursor-pointer">
           <Icons.Mic className="w-6 h-6" />
         </button>
       </div>
+
       {/* Derecha */}
       <div className="flex items-center gap-4">
         <div className="relative">
