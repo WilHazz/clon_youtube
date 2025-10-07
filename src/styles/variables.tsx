@@ -11,6 +11,9 @@ import { FiSettings } from "react-icons/fi";
 import { FiGlobe } from "react-icons/fi";
 import { LuMessageSquareWarning } from "react-icons/lu";
 import { FiHelpCircle } from "react-icons/fi";
+import { FaChevronRight } from "react-icons/fa";
+import { FaChevronLeft } from "react-icons/fa";
+import { FiMoon } from "react-icons/fi";
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
@@ -29,5 +32,8 @@ export const Icons = {
     Settings: FiSettings,
     Globe: FiGlobe,
     MessageWearning:  LuMessageSquareWarning,
-    HelpCircle: FiHelpCircle
+    HelpCircle: FiHelpCircle,
+    ChevronRight: FaChevronRight,
+    ChevronLeft: FaChevronLeft,
+    Moon: FiMoon
 }

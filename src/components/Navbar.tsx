@@ -8,7 +8,7 @@ import { Icons } from "@/styles/variables";
 export default function Navbar() {
   const [openConfig, setOpenConfig] = useState(false);
   const [search, setSearch] = useState("");
-  const { theme, setTheme } = useTheme();
+  const [openTheme, setOpenTheme] = useState(false);
 
   return (
     <nav className="flex items-center justify-between p-4 py-2 shadow-md bg-background text-foreground sticky top-0 z-50">
@@ -52,14 +52,41 @@ export default function Navbar() {
            >
             <Icons.More className="w-5 h-5" />
            </button>
+           {/* Menu de configuración */}
            {openConfig && (
-            <div className="absolute right-0 mt-2 w-56 bg-background shadow-lg rounded-lg overflow-hidden">
-              <button onClick={() => setTheme("l")} className="">
-                Tus datos en Youtube
-              </button>
-              <button onClick={() => setTheme("l")} className="">
-                Aspecto
-              </button>
+            <div className="absolute right-0 top-12 w-64 bg-[#282828] text-sm rounded-xl shadow-xl overflow-hidden z-50 border border-[#3f3f3f]">
+              {!openTheme ? (
+                <>
+                 <MenuItem 
+                    icon={<Icons.UserLine className="w-5 h-5" />} 
+                    text="Tus datos en YouTube"
+                 />
+                 <MenuItem 
+                    icon={<Icons.Moon className="w-5 h-5" />}
+                    text="Aspecto: Tema del dispositivo"
+                    action={() => setOpenTheme(true)}
+                    hasArrow
+                 />
+                 {/* <MenuItem icon={<FiGlobe />} text="Idioma: Español latinoamericano" />
+                <MenuItem icon={<FiKey />} text="Modo restringido: desactivado" /> */}
+                {/* <MenuItem icon={<FiGlobe />} text="Ubicación: Colombia" />
+                <MenuItem icon={<FiKey />} text="Combinaciones de teclas" />
+                <MenuItem icon={<FiSettings />} text="Configuración" />
+                <MenuItem icon={<FiHelpCircle />} text="Ayuda" />
+                <MenuItem icon={<FiMessageSquare />} text="Enviar comentarios" /> */}
+                </>
+              ): (
+                <>
+                 <div className="flex items-center px-4 py-3 border-b border-[#3f3f3f] cursor-pointer">
+                  <button onClick={() => setOpenTheme(false)}
+                    className="mr-2 p-1 hover:bg-[#3a3a3a] rounded-full"
+                    >
+                      <Icons.ChevronLeft size={18} className="cursor-pointer"/>
+                  </button>
+                  <span className="font-medium ">Aspecto</span>
+                 </div>
+                </>
+              )}
             </div>
            )}
         </div>
@@ -69,5 +96,30 @@ export default function Navbar() {
 
       </div>
     </nav>
+  );
+}
+
+function MenuItem({
+  icon, 
+  text, 
+  action, 
+  hasArrow,
+}:{
+  icon?: React.ReactNode;
+  text: string;
+  action?: () => void;
+  hasArrow?: boolean;
+}) {
+  return (
+    <button 
+    onClick={action} 
+    className="w-full flex items-center justify-between px-4 py-2.5 hover:bg-[#3a3a3a] text-left cursor-pointer transition-colors duration-150"
+    >
+      <div className="flex items-center gap-3">
+      {icon && <span className="text-gray-300">{icon}</span>}
+      <span>{text}</span>
+      </div>
+      {hasArrow && <Icons.ChevronRight className="w-4 h-4 text-gray-400" />}
+    </button>
   );
 }
