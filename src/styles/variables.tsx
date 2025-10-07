@@ -9,6 +9,8 @@ import { LuCircleUserRound } from "react-icons/lu";
 import { RiShieldUserLine } from "react-icons/ri";
 import { FiSettings } from "react-icons/fi";
 import { FiGlobe } from "react-icons/fi";
+import { LuMessageSquareWarning } from "react-icons/lu";
+import { FiHelpCircle } from "react-icons/fi";
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
@@ -25,5 +27,7 @@ export const Icons = {
     User: LuCircleUserRound,
     UserLine:  RiShieldUserLine,
     Settings: FiSettings,
-    Globe: FiGlobe
+    Globe: FiGlobe,
+    MessageWearning:  LuMessageSquareWarning,
+    HelpCircle: FiHelpCircle
 }
