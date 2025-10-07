@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useTheme } from "next-themes";
+import { useTheme } from "next-themes"; 
 import Link from "next/link";
 import { Icons } from "@/styles/variables";
 
@@ -9,6 +9,7 @@ export default function Navbar() {
   const [openConfig, setOpenConfig] = useState(false);
   const [search, setSearch] = useState("");
   const [openTheme, setOpenTheme] = useState(false);
+  const { setTheme } = useTheme();
 
   return (
     <nav className="flex items-center justify-between p-4 py-2 shadow-md bg-background text-foreground sticky top-0 z-50">
@@ -85,6 +86,16 @@ export default function Navbar() {
                   </button>
                   <span className="font-medium ">Aspecto</span>
                  </div>
+                 <MenuItem 
+                    text="Usar tema del dispositivo"
+                    action={() => setTheme("system")}
+                 />
+                <MenuItem 
+                    text="Tema claro" action={() => setTheme("light")}
+                />
+                <MenuItem 
+                    text="Tema oscuro" action={() => setTheme("dark")}
+                />
                 </>
               )}
             </div>
