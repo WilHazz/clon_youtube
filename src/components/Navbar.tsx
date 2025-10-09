@@ -55,7 +55,7 @@ export default function Navbar() {
            </button>
            {/* Menu de configuración */}
            {openConfig && (
-            <div className="absolute right-0 top-12 w-64 bg-[#282828] text-sm rounded-xl shadow-xl overflow-hidden z-50 border border-[#3f3f3f]">
+            <div className="absolute right-0 top-12 w-70 bg-[#282828] text-sm rounded-xl shadow-xl overflow-hidden z-50 border border-[#3f3f3f]">
               {!openTheme ? (
                 <>
                  <MenuItem 
@@ -69,9 +69,9 @@ export default function Navbar() {
                     hasArrow
                  />
                  <MenuItem icon={<Icons.idioma className="w-5 h-5"/>} text="Idioma: Español latinoamericano" />
-                {/* <MenuItem icon={<FiKey />} text="Modo restringido: desactivado" /> */}
+                <MenuItem icon={<Icons.keyboard className="w-5 h-5" />} text="Modo restringido: desactivado" />
                 <MenuItem icon={<Icons.Globe className="w-5 h-5"/>} text="Ubicación: Colombia" />
-                {/* <MenuItem icon={<FiKey className="w-5 h-5"/>} text="Combinaciones de teclas" /> */}
+                <MenuItem icon={<Icons.teclado className="w-5 h-5"/>} text="Combinaciones de teclas" />
                 {/* <MenuItem icon={<FiSettings className="w-5 h-5"/>} text="Configuración" /> */}
                 {/* <MenuItem icon={<FiHelpCircle className="w-5 h-5"/>} text="Ayuda" /> */}
                 {/* <MenuItem icon={<FiMessageSquare className="w-5 h-5"/>} text="Enviar comentarios" /> */}

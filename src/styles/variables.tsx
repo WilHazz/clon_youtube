@@ -8,13 +8,15 @@ import { FaYoutube } from "react-icons/fa6";
 import { LuCircleUserRound } from "react-icons/lu";
 import { RiShieldUserLine } from "react-icons/ri";
 import { FiSettings } from "react-icons/fi";
-import { FiGlobe } from "react-icons/fi";
+import { CiGlobe } from "react-icons/ci";
 import { LuMessageSquareWarning } from "react-icons/lu";
 import { FiHelpCircle } from "react-icons/fi";
 import { FaChevronRight } from "react-icons/fa";
 import { FaChevronLeft } from "react-icons/fa";
 import { FiMoon } from "react-icons/fi";
 import { IoLanguageOutline } from "react-icons/io5";
+import { FaRegKeyboard } from "react-icons/fa6";
+import { RiShieldKeyholeLine } from "react-icons/ri";
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
@@ -31,11 +33,13 @@ export const Icons = {
     User: LuCircleUserRound,
     UserLine:  RiShieldUserLine,
     Settings: FiSettings,
-    Globe: FiGlobe,
+    Globe: CiGlobe,
     MessageWearning:  LuMessageSquareWarning,
     HelpCircle: FiHelpCircle,
     ChevronRight: FaChevronRight,
     ChevronLeft: FaChevronLeft,
     Moon: FiMoon,
-    idioma: IoLanguageOutline
+    idioma: IoLanguageOutline,
+    teclado: FaRegKeyboard,
+    keyboard: RiShieldKeyholeLine
 }
