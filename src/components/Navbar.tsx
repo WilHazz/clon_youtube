@@ -68,13 +68,13 @@ export default function Navbar() {
                     action={() => setOpenTheme(true)}
                     hasArrow
                  />
-                 {/* <MenuItem icon={<FiGlobe />} text="Idioma: Español latinoamericano" />
-                <MenuItem icon={<FiKey />} text="Modo restringido: desactivado" /> */}
-                {/* <MenuItem icon={<FiGlobe />} text="Ubicación: Colombia" />
-                <MenuItem icon={<FiKey />} text="Combinaciones de teclas" />
-                <MenuItem icon={<FiSettings />} text="Configuración" />
-                <MenuItem icon={<FiHelpCircle />} text="Ayuda" />
-                <MenuItem icon={<FiMessageSquare />} text="Enviar comentarios" /> */}
+                 <MenuItem icon={<Icons.idioma className="w-5 h-5"/>} text="Idioma: Español latinoamericano" />
+                {/* <MenuItem icon={<FiKey />} text="Modo restringido: desactivado" /> */}
+                <MenuItem icon={<Icons.Globe className="w-5 h-5"/>} text="Ubicación: Colombia" />
+                {/* <MenuItem icon={<FiKey className="w-5 h-5"/>} text="Combinaciones de teclas" /> */}
+                {/* <MenuItem icon={<FiSettings className="w-5 h-5"/>} text="Configuración" /> */}
+                {/* <MenuItem icon={<FiHelpCircle className="w-5 h-5"/>} text="Ayuda" /> */}
+                {/* <MenuItem icon={<FiMessageSquare className="w-5 h-5"/>} text="Enviar comentarios" /> */}
                 </>
               ): (
                 <>

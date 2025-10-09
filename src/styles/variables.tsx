@@ -14,6 +14,7 @@ import { FiHelpCircle } from "react-icons/fi";
 import { FaChevronRight } from "react-icons/fa";
 import { FaChevronLeft } from "react-icons/fa";
 import { FiMoon } from "react-icons/fi";
+import { IoLanguageOutline } from "react-icons/io5";
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
@@ -35,5 +36,6 @@ export const Icons = {
     HelpCircle: FiHelpCircle,
     ChevronRight: FaChevronRight,
     ChevronLeft: FaChevronLeft,
-    Moon: FiMoon
+    Moon: FiMoon,
+    idioma: IoLanguageOutline
 }
