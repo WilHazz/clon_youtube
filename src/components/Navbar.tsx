@@ -55,7 +55,7 @@ export default function Navbar() {
            </button>
            {/* Menu de configuración */}
            {openConfig && (
-            <div className="absolute right-0 top-12 w-70 bg-[#282828] text-sm rounded-xl shadow-xl overflow-hidden z-50 border border-[#3f3f3f]">
+            <div className="absolute right-0 top-12 w-70 bg-[#282828] text-sm rounded-xl shadow-xl overflow-hidden z-50 border border-[#3f3f3f] py-2">
               {!openTheme ? (
                 <>
                  <MenuItem 
@@ -68,11 +68,20 @@ export default function Navbar() {
                     action={() => setOpenTheme(true)}
                     hasArrow
                  />
+                 <div>
                  <MenuItem icon={<Icons.idioma className="w-5 h-5"/>} text="Idioma: Español latinoamericano" />
-                <MenuItem icon={<Icons.keyboard className="w-5 h-5" />} text="Modo restringido: desactivado" />
+                 <MenuItem icon={<Icons.keyboard className="w-5 h-5" />} text="Modo restringido: desactivado" />
                 <MenuItem icon={<Icons.Globe className="w-5 h-5"/>} text="Ubicación: Colombia" />
                 <MenuItem icon={<Icons.teclado className="w-5 h-5"/>} text="Combinaciones de teclas" />
+
+                 </div>
+                 <div className="my-2 space-y-[1px]">
+                   <div className="border-t border-[#3f3f3f]" />
+                 </div>
                 <MenuItem icon={<Icons.Settings className="w-5 h-5"/>} text="Configuración" />
+                <div className="my-2 space-y-[1px]">
+                  <div className="border-t border-[#3f3f3f]" />
+                </div>
                 <MenuItem icon={<Icons.HelpCircle className="w-5 h-5"/>} text="Ayuda" />
                 <MenuItem icon={<Icons.MessageWearning className="w-5 h-5"/>} text="Enviar comentarios" />
                 </>
