@@ -72,8 +72,8 @@ export default function Navbar() {
                 <MenuItem icon={<Icons.keyboard className="w-5 h-5" />} text="Modo restringido: desactivado" />
                 <MenuItem icon={<Icons.Globe className="w-5 h-5"/>} text="Ubicación: Colombia" />
                 <MenuItem icon={<Icons.teclado className="w-5 h-5"/>} text="Combinaciones de teclas" />
-                {/* <MenuItem icon={<FiSettings className="w-5 h-5"/>} text="Configuración" /> */}
-                {/* <MenuItem icon={<FiHelpCircle className="w-5 h-5"/>} text="Ayuda" /> */}
+                <MenuItem icon={<Icons.Settings className="w-5 h-5"/>} text="Configuración" />
+                <MenuItem icon={<Icons.HelpCircle className="w-5 h-5"/>} text="Ayuda" />
                 {/* <MenuItem icon={<FiMessageSquare className="w-5 h-5"/>} text="Enviar comentarios" /> */}
                 </>
               ): (

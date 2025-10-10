@@ -34,7 +34,7 @@ export const Icons = {
     UserLine:  RiShieldUserLine,
     Settings: FiSettings,
     Globe: CiGlobe,
-    MessageWearning:  LuMessageSquareWarning,
+    MessageWearning: LuMessageSquareWarning,
     HelpCircle: FiHelpCircle,
     ChevronRight: FaChevronRight,
     ChevronLeft: FaChevronLeft,
