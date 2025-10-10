@@ -74,7 +74,7 @@ export default function Navbar() {
                 <MenuItem icon={<Icons.teclado className="w-5 h-5"/>} text="Combinaciones de teclas" />
                 <MenuItem icon={<Icons.Settings className="w-5 h-5"/>} text="Configuración" />
                 <MenuItem icon={<Icons.HelpCircle className="w-5 h-5"/>} text="Ayuda" />
-                {/* <MenuItem icon={<FiMessageSquare className="w-5 h-5"/>} text="Enviar comentarios" /> */}
+                <MenuItem icon={<Icons.MessageWearning className="w-5 h-5"/>} text="Enviar comentarios" />
                 </>
               ): (
                 <>
