@@ -13,9 +13,9 @@ export default function Navbar() {
   const { setTheme } = useTheme();
 
   return (
-    <nav className="flex items-center justify-between p-4 py-2 shadow-md bg-background text-foreground sticky top-0 z-50">
+    <nav className="flex items-center justify-between p-3 md: p-4 py-2 shadow-md bg-background text-foreground sticky top-0 z-50 shadow-md">
       {/* Izquierda  */}
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-3 md:gap-4">
         <button className="p-2 hover:bg-gray-200 dark:hover:bg-zinc-800 rounded-full cursor-pointer">
           <Icons.Menu className="w-6 h-6" />
         </button>
