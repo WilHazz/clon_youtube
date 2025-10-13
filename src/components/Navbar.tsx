@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useTheme } from "next-themes"; 
 import Link from "next/link";
 import { Icons } from "@/styles/variables";
+import Image from "next/image";
 
 export default function Navbar() {
   const [openConfig, setOpenConfig] = useState(false);
@@ -19,8 +20,8 @@ export default function Navbar() {
           <Icons.Menu className="w-6 h-6" />
         </button>
         <Link href="/" className="flex items-center gap-1">
-          <img 
-          src="/Logo/LogoYoutube.png" 
+          <Image 
+          src="/Logo/LogoYoutube.png"
           alt="Youtube Logo"
           width={32}
           height={32}
