@@ -19,7 +19,12 @@ export default function Navbar() {
           <Icons.Menu className="w-6 h-6" />
         </button>
         <Link href="/" className="flex items-center gap-1">
-          <Icons.Youtube className="w-8 h-8 text-red-500" />
+          <img 
+          src="/Logo/LogoYoutube.png" 
+          alt="Youtube Logo"
+          width={32}
+          height={32}
+          />
           <span className="text-xl tracking-tight font-oswald"
             style={{ fontFamily: "var(--font-oswald)" }}>YouTube</span>
           
