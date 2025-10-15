@@ -5,7 +5,30 @@ import { Icons } from "@/styles/variables";
 
 
 export default function SearchBar (){
+    const { setTheme } = useTheme();
+    const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
   return (
-    <div>SearchBar</div>
+    <div className="relative flex items-center">
+        {/* 🔍 Buscador visible solo en tablet y desktop */}
+      <div className="hidden sm:flex items-center bg-background rounded-full overflow-hidden border border-zinc-700 
+                      w-64 lg:w-96 transition-all duration-300">
+        <input
+          type="text"
+          placeholder="Buscar"
+          className="bg-transparent px-4 py-2 w-full text-sm text-white placeholder-zinc-400 focus:outline-none"
+        />
+        <button className="px-4 text-zinc-400 hover:text-white">
+          <Icons.Search size={20} />
+        </button>
+        </div>
+
+        {/* Icono lupa visible en mobile */}
+        <button className="sm:hidden text-foreground hover:text-white"
+        onClick={() => setIsMobileSearchOpen(true)}
+        >
+          <Icons.Search size={22} />
+        </button>
+        {/* Modal Movil de búsqueda */}
+    </div>
   )
 }
