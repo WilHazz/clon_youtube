@@ -17,6 +17,7 @@ import { FiMoon } from "react-icons/fi";
 import { IoLanguageOutline } from "react-icons/io5";
 import { FaRegKeyboard } from "react-icons/fa6";
 import { RiShieldKeyholeLine } from "react-icons/ri";
+import { FaArrowLeft } from "react-icons/fa";
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
@@ -41,5 +42,6 @@ export const Icons = {
     Moon: FiMoon,
     idioma: IoLanguageOutline,
     teclado: FaRegKeyboard,
-    keyboard: RiShieldKeyholeLine
+    keyboard: RiShieldKeyholeLine,
+    back: FaArrowLeft
 }
