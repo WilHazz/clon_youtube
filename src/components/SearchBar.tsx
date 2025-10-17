@@ -39,8 +39,14 @@ export default function SearchBar (){
                 className="text-foreground hover:text-white"
                >
                 <Icons.back size={22} />
-
                </button>
+               {/* Input de busqueda */}
+               <div className="flex items-center flex-1 bg-zinc-900 rounded-full border border-zinc-700 overflow-hidden">
+                <input type="text"
+                placeholder="Buscar"
+                className="bg-transparent px-4 py-2 w-full text-sm text-white placeholder-zinc-400 focus:outline-none"
+                />
+               </div>
             </div>
           </div>
         )}
