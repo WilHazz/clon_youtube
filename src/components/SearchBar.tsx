@@ -29,6 +29,13 @@ export default function SearchBar (){
           <Icons.Search size={22} />
         </button>
         {/* Modal Movil de búsqueda */}
+        {isMobileSearchOpen && (
+          <div className="fixed inset-0 bg-white dark:bg-background z-50 flex flex-col items-center justify-start 
+          px-3 pt-3 animate-slideDown"
+          >
+
+          </div>
+        )}
     </div>
   )
 }
