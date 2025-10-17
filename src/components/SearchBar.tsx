@@ -33,7 +33,15 @@ export default function SearchBar (){
           <div className="fixed inset-0 bg-white dark:bg-background z-50 flex flex-col items-center justify-start 
           px-3 pt-3 animate-slideDown"
           >
+            <div className="flex items-center w-full mb-2">
+              {/* Flecha para regresar */}
+               <button onClick={() => setIsMobileSearchOpen(false)}
+                className="text-foreground hover:text-white"
+               >
+                <Icons.back size={22} />
 
+               </button>
+            </div>
           </div>
         )}
     </div>
