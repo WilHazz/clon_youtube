@@ -5,6 +5,7 @@ import { useTheme } from "next-themes";
 import Link from "next/link";
 import { Icons } from "@/styles/variables";
 import Image from "next/image";
+import SearchBar from "./SearchBar";
 
 export default function Navbar() {
   const [openConfig, setOpenConfig] = useState(false);
@@ -35,20 +36,8 @@ export default function Navbar() {
 
       {/* Centro  */}
       <div className="flex items-center flex-1 justify-center">
-        <div className="flex items-center w-full max-w-xl">
-          <input 
-            type="text" 
-            placeholder="Buscar"
-            onChange={(e) =>setSearch(e.target.value)}
-            className="w-full px-4 py-2 bg-[#121212] border border-[#303030] rounded-l-full outline-none focus:border-blue-500 placeholder-gray-400"
-           />
-           <button className="px-5 py-2 bg-[#222222] border border-[#303030] border-l-0 rounded-r-full hover:bg-[#303030] cursor-pointer">
-           <Icons.Search className="w-6 h-6 text-gray-300" />
-           </button>
-        </div>
-        <button className="ml-3 p-2 bg-gray-200 hover:bg-[#303030] dark:bg-zinc-800 rounded-full cursor-pointer">
-          <Icons.Mic className="w-6 h-6" />
-        </button>
+        <SearchBar />
+        
       </div>
 
       {/* Derecha */}
