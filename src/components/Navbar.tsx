@@ -1,11 +1,12 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTheme } from "next-themes"; 
 import Link from "next/link";
 import { Icons } from "@/styles/variables";
 import Image from "next/image";
 import SearchBar from "./SearchBar";
+import { set } from "react-hook-form";
 
 export default function Navbar() {
   const [openConfig, setOpenConfig] = useState(false);
@@ -13,6 +14,19 @@ export default function Navbar() {
   const { setTheme } = useTheme();
 
   const menuRef = useRef<HTMLDivElement>(null);
+
+  //Detectar Click por fuera
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) =>{
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setOpenConfig(false);
+        setOpenTheme(false);
+      }
+    };
+    if (openConfig) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+  })
 
   return (
     <nav className="flex items-center justify-between p-3 md: p-4 py-2 shadow-md bg-white dark:bg-background text-foreground sticky top-0 z-50 shadow-md">
