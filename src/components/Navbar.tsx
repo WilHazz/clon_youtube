@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useTheme } from "next-themes"; 
 import Link from "next/link";
 import { Icons } from "@/styles/variables";
@@ -9,9 +9,10 @@ import SearchBar from "./SearchBar";
 
 export default function Navbar() {
   const [openConfig, setOpenConfig] = useState(false);
-  const [search, setSearch] = useState("");
   const [openTheme, setOpenTheme] = useState(false);
   const { setTheme } = useTheme();
+
+  const menuRef = useRef<HTMLDivElement>(null);
 
   return (
     <nav className="flex items-center justify-between p-3 md: p-4 py-2 shadow-md bg-white dark:bg-background text-foreground sticky top-0 z-50 shadow-md">
