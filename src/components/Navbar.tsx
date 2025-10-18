@@ -23,7 +23,7 @@ export default function Navbar() {
         setOpenTheme(false);
       }
     };
-    if (openConfig) {
+    if (openConfig || openTheme) {
       document.addEventListener("mousedown", handleClickOutside);
     }
 
@@ -31,7 +31,7 @@ export default function Navbar() {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     }
-  }, [openConfig]);
+  }, [openConfig, openTheme]);
 
   return (
     <nav className="flex items-center justify-between p-3 md: p-4 py-2 shadow-md bg-white dark:bg-background text-foreground sticky top-0 z-50 shadow-md">
@@ -62,7 +62,7 @@ export default function Navbar() {
 
       {/* Derecha */}
       <div className="flex items-center gap-3">
-        <div className="relative">
+        <div className="relative" ref={menuRef}>
            <button onClick={()=> setOpenConfig(!openConfig)} 
            className="p-2  rounded-full cursor-pointer"
            >
