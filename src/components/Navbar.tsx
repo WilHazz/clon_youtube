@@ -26,7 +26,12 @@ export default function Navbar() {
     if (openConfig) {
       document.addEventListener("mousedown", handleClickOutside);
     }
-  })
+
+    //Limpiar el listener
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+  }, [openConfig]);
 
   return (
     <nav className="flex items-center justify-between p-3 md: p-4 py-2 shadow-md bg-white dark:bg-background text-foreground sticky top-0 z-50 shadow-md">
