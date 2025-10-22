@@ -1,5 +1,5 @@
 // importamos desde React-Iconos
-import { MdVideoLibrary, MdHome, MdSubscriptions } from "react-icons/md";
+import { MdVideoLibrary, MdSubscriptions } from "react-icons/md";
 import { AiFillLike, AiFillDislike } from "react-icons/ai";
 import { HiOutlineMenu } from "react-icons/hi";
 import { FiSearch, FiMoreVertical } from "react-icons/fi";
@@ -18,6 +18,7 @@ import { IoLanguageOutline } from "react-icons/io5";
 import { FaRegKeyboard } from "react-icons/fa6";
 import { RiShieldKeyholeLine } from "react-icons/ri";
 import { FaArrowLeft } from "react-icons/fa";
+import { AiFillHome } from "react-icons/ai";
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
@@ -25,7 +26,7 @@ export const Icons = {
     Search: FiSearch,
     More: FiMoreVertical,
     Mic: PiMicrophone,
-    Home: MdHome,
+    Home: AiFillHome ,
     Youtube: FaYoutube,
     Library: MdVideoLibrary,
     Subscriptions: MdSubscriptions,
