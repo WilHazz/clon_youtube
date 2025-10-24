@@ -26,7 +26,7 @@ export const Icons = {
     Search: FiSearch,
     More: FiMoreVertical,
     Mic: PiMicrophone,
-    Home: AiFillHome ,
+    Home: AiFillHome,
     Youtube: FaYoutube,
     Library: MdVideoLibrary,
     Subscriptions: MdSubscriptions,
