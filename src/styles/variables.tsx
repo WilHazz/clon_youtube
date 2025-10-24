@@ -20,6 +20,8 @@ import { RiShieldKeyholeLine } from "react-icons/ri";
 import { FaArrowLeft } from "react-icons/fa";
 import { AiFillHome } from "react-icons/ai";
 import { SiYoutubeshorts } from "react-icons/si";
+import { FaHistory } from "react-icons/fa";
+import { SiYoutubemusic } from "react-icons/si";
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
@@ -46,5 +48,7 @@ export const Icons = {
     teclado: FaRegKeyboard,
     keyboard: RiShieldKeyholeLine,
     back: FaArrowLeft,
-    shorts: SiYoutubeshorts
+    shorts: SiYoutubeshorts,
+    history: FaHistory,
+    Youtubemusic: SiYoutubemusic
 }
