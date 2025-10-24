@@ -128,7 +128,6 @@ export default function Navbar() {
         <button className="flex items-center gap-1 px-3 py-[6px] border border-[#3f3f3f] rounded-full text-sm hover:bg-[#272727] hover:border-transparent transition cursor-pointer">
           <Icons.User className="w-6 h-6" />Acceder
         </button>
-
       </div>
     </nav>
   );
