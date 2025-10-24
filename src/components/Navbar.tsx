@@ -57,7 +57,6 @@ export default function Navbar() {
       {/* Centro  */}
       <div className="flex items-center flex-1 justify-center">
         <SearchBar />
-        
       </div>
 
       {/* Derecha */}
