@@ -19,6 +19,7 @@ import { FaRegKeyboard } from "react-icons/fa6";
 import { RiShieldKeyholeLine } from "react-icons/ri";
 import { FaArrowLeft } from "react-icons/fa";
 import { AiFillHome } from "react-icons/ai";
+import { LiaHomeSolid } from "react-icons/lia";
 import { SiYoutubeshorts } from "react-icons/si";
 import { FaHistory } from "react-icons/fa";
 import { SiYoutubemusic } from "react-icons/si";
@@ -31,6 +32,7 @@ export const Icons = {
     More: FiMoreVertical,
     Mic: PiMicrophone,
     Home: AiFillHome,
+    Home2:  LiaHomeSolid,
     Youtube: FaYoutube,
     Library: MdVideoLibrary,
     Subscriptions: MdSubscriptions,
