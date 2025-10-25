@@ -24,6 +24,7 @@ import { SiYoutubeshorts } from "react-icons/si";
 import { FaHistory } from "react-icons/fa";
 import { SiYoutubemusic } from "react-icons/si";
 import { SiYoutubekids } from "react-icons/si";
+import { CiYoutube } from "react-icons/ci";
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
@@ -54,5 +55,6 @@ export const Icons = {
     shorts: SiYoutubeshorts,
     history: FaHistory,
     Youtubemusic: SiYoutubemusic,
-    Youtubekids: SiYoutubekids
+    Youtubekids: SiYoutubekids,
+    MisVideos: CiYoutube,
 }
