@@ -28,6 +28,7 @@ import { CiYoutube } from "react-icons/ci";
 import { PiMusicNoteBold } from "react-icons/pi";
 import { CgPlayList } from "react-icons/cg";
 import { MdOutlineSubscriptions } from "react-icons/md";
+import { FaRegClock } from "react-icons/fa6";
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
@@ -62,5 +63,6 @@ export const Icons = {
     MisVideos: CiYoutube,
     Music: PiMusicNoteBold,
     Playlist: CgPlayList,
-    Subscribe:  MdOutlineSubscriptions
+    Subscribe:  MdOutlineSubscriptions,
+    Clock: FaRegClock
 }
