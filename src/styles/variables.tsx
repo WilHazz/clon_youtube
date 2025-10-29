@@ -29,6 +29,7 @@ import { PiMusicNoteBold } from "react-icons/pi";
 import { CgPlayList } from "react-icons/cg";
 import { MdOutlineSubscriptions } from "react-icons/md";
 import { FaRegClock } from "react-icons/fa6";
+import { LuArrowDownToLine } from "react-icons/lu";
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
@@ -64,5 +65,6 @@ export const Icons = {
     Music: PiMusicNoteBold,
     Playlist: CgPlayList,
     Subscribe:  MdOutlineSubscriptions,
-    Clock: FaRegClock
+    Clock: FaRegClock,
+    Download: LuArrowDownToLine
 }
