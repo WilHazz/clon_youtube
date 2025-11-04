@@ -30,6 +30,7 @@ import { CgPlayList } from "react-icons/cg";
 import { MdOutlineSubscriptions } from "react-icons/md";
 import { FaRegClock } from "react-icons/fa6";
 import { LuArrowDownToLine } from "react-icons/lu";
+import { GrBeacon } from "react-icons/gr";
 import { SiYoutubegaming } from "react-icons/si";
 
 // Exportamos como objeto para mantener orden
@@ -68,5 +69,6 @@ export const Icons = {
     Subscribe:  MdOutlineSubscriptions,
     Clock: FaRegClock,
     Download: LuArrowDownToLine,
+    En_Directo: GrBeacon,
     Games: SiYoutubegaming
 }
