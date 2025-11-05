@@ -33,6 +33,7 @@ import { LuArrowDownToLine } from "react-icons/lu";
 import { GrBeacon } from "react-icons/gr";
 import { SiYoutubegaming } from "react-icons/si";
 import { ImNewspaper } from "react-icons/im";
+import { GoTrophy } from "react-icons/go";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 
 // Exportamos como objeto para mantener orden
@@ -74,5 +75,6 @@ export const Icons = {
     En_Directo: GrBeacon,
     Games: SiYoutubegaming,
     Noticias: ImNewspaper,
+    Deportes: GoTrophy,
     Ayuda: AiOutlineQuestionCircle
 }
