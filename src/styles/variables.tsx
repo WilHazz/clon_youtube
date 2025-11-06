@@ -30,7 +30,7 @@ import { CgPlayList } from "react-icons/cg";
 import { MdOutlineSubscriptions } from "react-icons/md";
 import { FaRegClock } from "react-icons/fa6";
 import { LuArrowDownToLine } from "react-icons/lu";
-import { IoRadioOutline } from "react-icons/io5";
+import { BiStation } from "react-icons/bi";
 import { SiYoutubegaming } from "react-icons/si";
 import { ImNewspaper } from "react-icons/im";
 import { GoTrophy } from "react-icons/go";
@@ -72,7 +72,7 @@ export const Icons = {
     Subscribe:  MdOutlineSubscriptions,
     Clock: FaRegClock,
     Download: LuArrowDownToLine,
-    En_Directo: IoRadioOutline,
+    En_Directo: BiStation,
     Games: SiYoutubegaming,
     Noticias: ImNewspaper,
     Deportes: GoTrophy,
