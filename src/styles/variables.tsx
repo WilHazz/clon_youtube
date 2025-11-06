@@ -34,6 +34,7 @@ import { BiStation } from "react-icons/bi";
 import { SiYoutubegaming } from "react-icons/si";
 import { ImNewspaper } from "react-icons/im";
 import { GoTrophy } from "react-icons/go";
+import { AiOutlineBulb } from "react-icons/ai";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 
 // Exportamos como objeto para mantener orden
@@ -76,5 +77,6 @@ export const Icons = {
     Games: SiYoutubegaming,
     Noticias: ImNewspaper,
     Deportes: GoTrophy,
+    Aprendizaje: AiOutlineBulb,
     Ayuda: AiOutlineQuestionCircle
 }
