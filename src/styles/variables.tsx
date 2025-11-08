@@ -35,8 +35,8 @@ import { SiYoutubegaming } from "react-icons/si";
 import { ImNewspaper } from "react-icons/im";
 import { GoTrophy } from "react-icons/go";
 import { AiOutlineBulb } from "react-icons/ai";
-import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { IoFlagOutline } from "react-icons/io5";
+import { AiOutlineQuestionCircle } from "react-icons/ai";
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
@@ -79,6 +79,6 @@ export const Icons = {
     Noticias: ImNewspaper,
     Deportes: GoTrophy,
     Aprendizaje: AiOutlineBulb,
+    denuncias: IoFlagOutline,
     Ayuda: AiOutlineQuestionCircle,
-    denuncias: IoFlagOutline
 }
