@@ -38,6 +38,8 @@ import { AiOutlineBulb } from "react-icons/ai";
 import { IoFlagOutline } from "react-icons/io5";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 
+import { GoBell } from "react-icons/go";
+
 // Exportamos como objeto para mantener orden
 export const Icons = {
     Menu: HiOutlineMenu,
@@ -81,4 +83,5 @@ export const Icons = {
     Aprendizaje: AiOutlineBulb,
     denuncias: IoFlagOutline,
     Ayuda: AiOutlineQuestionCircle,
+    Notificaciones: GoBell
 }
