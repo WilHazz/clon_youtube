@@ -85,4 +85,5 @@ export const Icons = {
     Ayuda: AiOutlineQuestionCircle,
     Sugerencias: BiCommentError,
     Notificaciones: GoBell
+    
 }
