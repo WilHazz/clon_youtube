@@ -79,7 +79,6 @@ export const Icons = {
     En_Directo: BiStation,
     Games: SiYoutubegaming,
     Noticias: ImNewspaper,
-    
     Deportes: GoTrophy,
     Aprendizaje: AiOutlineBulb,
     denuncias: IoFlagOutline,
