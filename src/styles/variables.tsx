@@ -39,6 +39,8 @@ import { IoFlagOutline } from "react-icons/io5";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import { BiCommentError } from "react-icons/bi";
 import { GoBell } from "react-icons/go";
+// Iconos para el menu de la cuenta registrado:
+import { FaGoogle } from "react-icons/fa";
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
@@ -84,6 +86,8 @@ export const Icons = {
     denuncias: IoFlagOutline,
     Ayuda: AiOutlineQuestionCircle,
     Sugerencias: BiCommentError,
-    Notificaciones: GoBell
+    Notificaciones: GoBell,
+    // Iconos para el menu de la cuenta registrado:
+    Google: FaGoogle,
     
 }
