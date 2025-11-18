@@ -89,5 +89,4 @@ export const Icons = {
     Notificaciones: GoBell,
     // Iconos para el menu de la cuenta registrado:
     Google: FaGoogle,
-    
 }
