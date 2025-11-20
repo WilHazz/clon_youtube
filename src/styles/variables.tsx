@@ -42,6 +42,8 @@ import { GoBell } from "react-icons/go";
 // Iconos para el menu de la cuenta registrado:
 import { FaGoogle } from "react-icons/fa";
 import { TbUserSquare } from "react-icons/tb";
+import { VscSignOut } from "react-icons/vsc";
+
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
@@ -90,5 +92,8 @@ export const Icons = {
     Notificaciones: GoBell,
     // Iconos para el menu de la cuenta registrado:
     Google: FaGoogle,
-    UserCuenta: TbUserSquare
+    UserCuenta: TbUserSquare,
+    SignOut: VscSignOut
+
+
 }
