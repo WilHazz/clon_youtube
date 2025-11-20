@@ -93,7 +93,7 @@ export const Icons = {
     // Iconos para el menu de la cuenta registrado:
     Google: FaGoogle,
     UserCuenta: TbUserSquare,
-    SignOut: VscSignOut
+    CerrarSesion: VscSignOut
 
 
 }
