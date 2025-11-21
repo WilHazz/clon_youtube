@@ -44,6 +44,7 @@ import { FaGoogle } from "react-icons/fa";
 import { TbUserSquare } from "react-icons/tb";
 import { VscSignOut } from "react-icons/vsc";
 import { SiYoutubestudio } from "react-icons/si";
+import { RiMoneyDollarCircleLine } from "react-icons/ri";
 
 
 // Exportamos como objeto para mantener orden
@@ -96,5 +97,5 @@ export const Icons = {
     UserCuenta: TbUserSquare,
     CerrarSesion: VscSignOut,
     Studio: SiYoutubestudio,
-
+    Compras: RiMoneyDollarCircleLine
 }
