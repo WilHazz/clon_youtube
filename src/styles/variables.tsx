@@ -43,6 +43,7 @@ import { GoBell } from "react-icons/go";
 import { FaGoogle } from "react-icons/fa";
 import { TbUserSquare } from "react-icons/tb";
 import { VscSignOut } from "react-icons/vsc";
+import { SiYoutubestudio } from "react-icons/si";
 
 
 // Exportamos como objeto para mantener orden
@@ -93,7 +94,7 @@ export const Icons = {
     // Iconos para el menu de la cuenta registrado:
     Google: FaGoogle,
     UserCuenta: TbUserSquare,
-    CerrarSesion: VscSignOut
-
+    CerrarSesion: VscSignOut,
+    Studio: SiYoutubestudio,
 
 }
