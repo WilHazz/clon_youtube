@@ -41,7 +41,7 @@ import { BiCommentError } from "react-icons/bi";
 import { GoBell } from "react-icons/go";
 // Iconos para el menu de la cuenta registrado:
 import { FaGoogle } from "react-icons/fa";
-import { TbUserSquare } from "react-icons/tb";
+import { BiSolidUserAccount } from "react-icons/bi";
 import { VscSignOut } from "react-icons/vsc";
 import { SiYoutubestudio } from "react-icons/si";
 import { RiMoneyDollarCircleLine } from "react-icons/ri";
@@ -94,7 +94,7 @@ export const Icons = {
     Notificaciones: GoBell,
     // Iconos para el menu de la cuenta registrado:
     Google: FaGoogle,
-    UserCuenta: TbUserSquare,
+    UserCuenta: BiSolidUserAccount,
     CerrarSesion: VscSignOut,
     Studio: SiYoutubestudio,
     Compras: RiMoneyDollarCircleLine
