@@ -42,7 +42,7 @@ import { GoBell } from "react-icons/go";
 // Iconos para el menu de la cuenta registrado:
 import { FaGoogle } from "react-icons/fa";
 import { BiSolidUserAccount } from "react-icons/bi";
-import { VscSignOut } from "react-icons/vsc";
+import { CiLogin } from "react-icons/ci";
 import { SiYoutubestudio } from "react-icons/si";
 import { RiMoneyDollarCircleLine } from "react-icons/ri";
 
@@ -95,7 +95,7 @@ export const Icons = {
     // Iconos para el menu de la cuenta registrado:
     Google: FaGoogle,
     UserCuenta: BiSolidUserAccount,
-    CerrarSesion: VscSignOut,
+    CerrarSesion: CiLogin,
     Studio: SiYoutubestudio,
     Compras: RiMoneyDollarCircleLine
 }
