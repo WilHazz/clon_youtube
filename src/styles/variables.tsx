@@ -45,7 +45,7 @@ import { BiSolidUserAccount } from "react-icons/bi";
 import { CiLogin } from "react-icons/ci";
 import { SiYoutubestudio } from "react-icons/si";
 import { RiMoneyDollarCircleLine } from "react-icons/ri";
-
+import { BsPersonFillGear } from "react-icons/bs";
 
 // Exportamos como objeto para mantener orden
 export const Icons = {
@@ -97,5 +97,6 @@ export const Icons = {
     UserCuenta: BiSolidUserAccount,
     CerrarSesion: CiLogin,
     Studio: SiYoutubestudio,
-    Compras: RiMoneyDollarCircleLine
+    Compras: RiMoneyDollarCircleLine,
+    ModoRestringido: BsPersonFillGear,
 }
