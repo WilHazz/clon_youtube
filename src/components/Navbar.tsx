@@ -34,7 +34,7 @@ export default function Navbar() {
   }, [openConfig, openTheme]);
 
   return (
-    <nav className="flex items-center justify-between p-3 md: p-4 py-2 shadow-md bg-white dark:bg-background text-foreground sticky top-0 z-50 shadow-md">
+    <nav className="flex items-center justify-between p-3 md: p-4 py-2 shadow-md bg-white dark:bg-[#0f0f0f] text-black dark:text-white text-foreground sticky top-0 z-50 shadow-md">
       {/* Izquierda  */}
       <div className="flex items-center gap-3 md:gap-4">
         <button className="p-2 hover:bg-gray-200 dark:hover:bg-zinc-800 rounded-full cursor-pointer">
