@@ -1,1 +1,1 @@
-export const names = ["John", "Jane", "Bob", "Alice"];
+export const names = ["John", "Jane", "Bob", "Alice", "Pedro"];
