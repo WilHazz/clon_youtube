@@ -1,3 +1,3 @@
 export const names = ["John", "Jane", "Bob", "Alice", 
     "Pedro", "Marcos", "Fabian", "Florentino", "Cesar", 
-    "Diego", "Ginna", "Jaime", "Albert", "Juanes", "Maria", "Alana", "Wil Wilson"];
+    "Diego", "Ginna", "Jaime", "Albert", "Juanes", "Maria", "Alana", "Wil Wilson", "Perez"];
