@@ -5,4 +5,4 @@ export const names = ["John", "Jane", "Bob", "Alice",
      "Louis", "Principe de persia", "Jorgeis", "Roles", 
      "Retos y mas retos", "Super tv", "Florentino", "Florencio", 
      "Ricardiño", "Juan perez", "Musica siempre", "Carrito negro", "GAmeNotAs",
-     "PolicarpaXD"];
+     "PolicarpaXD", "Amigosiempre"];
