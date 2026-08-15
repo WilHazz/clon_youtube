@@ -7,5 +7,5 @@ export const names = ["John", "Jane", "Bob", "Alice",
      "Ricardiño", "Juan perez", "Musica siempre", "Carrito negro", "GAmeNotAs",
      "PolicarpaXD", "Amigosiempre", "Doña Mari", "mariconsuelo", "LA Portada",
     "La cocina de la abuela", "Heroes del silencio", "Kikos", "Los Rojos", "Aurelio",
-    "Tri cash"
+    "Tri cash", "Bob Dylan"
 ];
