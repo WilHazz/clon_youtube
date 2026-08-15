@@ -6,4 +6,6 @@ export const names = ["John", "Jane", "Bob", "Alice",
      "Retos y mas retos", "Super tv", "Florentino", "Florencio", 
      "Ricardiño", "Juan perez", "Musica siempre", "Carrito negro", "GAmeNotAs",
      "PolicarpaXD", "Amigosiempre", "Doña Mari", "mariconsuelo", "LA Portada",
-    "La cocina de la abuela", "Heroes del silencio", "Kikos", "Los Rojos", "Aurelio"];
+    "La cocina de la abuela", "Heroes del silencio", "Kikos", "Los Rojos", "Aurelio",
+    "Tri cash"
+];
