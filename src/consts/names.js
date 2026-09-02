@@ -9,5 +9,5 @@ export const names = ["John", "Jane", "Bob", "Alice",
     "La cocina de la abuela", "Heroes del silencio", "Kikos", "Los Rojos", "Aurelio",
     "Tri cash", "Bob Dylan", "Los de siempre", "Hablemos gente", "Willi Colon", 
     "Los de aqui", "The Brothers Jims", "Virus T", "Angles", "Terminator", "Federrico",
-    "The Lost"
+    "The Lost", "Magic"
 ];
