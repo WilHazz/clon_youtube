@@ -10,5 +10,5 @@ export const names = ["John", "Jane", "Bob", "Alice",
     "Tri cash", "Bob Dylan", "Los de siempre", "Hablemos gente", "Willi Colon", 
     "Los de aqui", "The Brothers Jims", "Virus T", "Angles", "Terminator", "Federrico",
     "The Lost", "Magic", "Juan G", "Aurelio", "Leny-D", "Mr bean", "Juan Java",
-    "Roberto", "Luis Toro", "Willi Column"
+    "Roberto", "Luis Toro", "Willi Column", "Blis"
 ];
